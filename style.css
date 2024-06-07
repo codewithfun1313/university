@@ -1,0 +1,349 @@
+
+body{
+    background: hsl(0, 0%, 94%);
+
+}
+
+.top-header {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 15px;
+  }
+  .header {
+    margin-top: 15px;
+  }
+  header{
+    background-color:  #68bb59;
+  }
+  .nav-link{
+    color: white;
+  }
+  .nav-item a:hover{
+    color: gold;
+  }
+  .main-slider h1 {
+    font-size: 5rem;
+  }
+  .main-slider p {
+    font-size: 4rem;
+  }
+  span {
+    color: #d5be8b;
+  }
+  .vd video{
+    margin-top: 5px;
+    width: 100%;
+    height: 40%;
+  }
+  .notice-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .notice {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  .col img {
+    height: 100%;
+  }
+  .about-us {
+    margin-top: 15px;
+    background-color: #003366;
+  }
+  
+  .about-us p {
+    color: whitesmoke;
+  }
+  span {
+    color: orange;
+  }
+  .about-us h1 {
+    text-align: center;
+    color: red;
+  }
+  .card:hover {
+    box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -2px -1px 25px -4px rgba(0, 0, 0, 0.75);
+    transition: 0.5s;
+  }
+  .card-body p a{
+    text-decoration: none;
+  }
+  .row h1{
+    color: darkblue;
+  }
+  .row h1:hover{
+    color: yellowgreen;
+  }
+  .glry h1 a{
+    text-decoration: none;
+  }
+  .section-title {
+    padding: 50px 5vw;
+  }
+  
+  .section-title span {
+    color: #d5be8b;
+  }
+  
+  .review-container {
+    margin: 50px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  .review-card img {
+    clip-path: circle();
+  }
+  .review-card {
+    width: 250px;
+    height: auto;
+    font-family: "lato", sans-serif;
+  }
+  .user-dp {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+  }
+  .user-dp img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .user-dp::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  
+    border-radius: 50%;
+  }
+  .user-dp::after {
+    content: attr(data-rating);
+    position: absolute;
+    bottom: 0;
+    right: -20px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background: #d5be8b;
+  }
+  .stars {
+    color: orange;
+  }
+  
+  .review-title {
+    font-size: 20px;
+    line-height: 25px;
+    margin: 30px 0;
+    text-transform: capitalize;
+  }
+  .review {
+    opacity: 0.9;
+  }
+  .news {
+    margin-top: 10px;
+    background-color: #223260;
+    color: whitesmoke;
+  }
+  .news {
+    width: 100%;
+  }
+  .btn2 {
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px solid white;
+    font-weight: 600;
+  }
+  
+  
+  .news p {
+    margin: 0;
+  }
+  .fab {
+    font-size: 2.5rem;
+    cursor: pointer;
+    margin: 12px;
+    padding-right: 5px;
+  }
+  
+  .recruiter-head-style {
+    font-size: 28px;
+  
+    margin-bottom: 5px;
+  }
+  .recruiter-marquee {
+    height: 100px;
+  }
+  .recruiter-marquee img {
+    height: 40px;
+    width: 100px;
+    margin: 0 10px;
+  }
+  .scroll-bar {
+    height: 100%;
+    width: 100%;
+    border: 1px solid grey;
+    overflow: auto;
+  }
+  .gallery {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .gallery-item {
+    margin: 10px;
+    width: 800px;
+    height: 100%;
+  }
+  
+  .gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    float: left;
+  }
+  
+  .our-team {
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    background-color: #f7f5ec;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .our-team .picture {
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    margin-bottom: 50px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .our-team .picture::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0;
+    opacity: 0.9;
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+  }
+  
+  .our-team:hover .picture::before {
+    height: 100%;
+  }
+  
+  .our-team .picture::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #1369ce;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  .our-team .picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+  }
+  
+  .our-team:hover .picture img {
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+  }
+  
+  .our-team .title {
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize;
+  }
+  
+  .our-team .social {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #1369ce;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+  }
+  
+  .our-team:hover .social {
+    bottom: 0;
+  }
+  
+  .our-team .social li {
+    display: inline-block;
+  }
+  
+  .our-team .social li a {
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+  }
+  
+  .our-team .social li a:hover {
+    color: #1369ce;
+    background-color: #f7f5ec;
+  }
+  .tem {
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+  }
+  .tem img {
+    padding: 10px;
+    margin-top: 5px;
+    height: auto;
+    width: 350px;
+  }
+  /*Gallery Section*/
+  .gallery img {
+    width: 24%;
+    margin: 5px;
+  }
+  .gallery h2 {
+    text-align: center;
+  } /*Slider Section*/
+  .slider img {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 2px solid red;
+  }
+  .carousel-inner h5 a {
+    text-decoration: none;
+  }
+  .news a {
+    color: white;
+    text-decoration: none;
+  }
+  

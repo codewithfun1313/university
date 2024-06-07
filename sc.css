@@ -1,0 +1,35 @@
+body {
+  width: 100%;
+  background: url(img/bg-registration-form-2.jpg);
+}
+.navbar {
+  padding: 5px;
+  background-color: rgba(250, 235, 215, 0.918);
+}
+.form {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+h3 {
+  font-family: Calibri;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: bold;
+  color: green;
+  text-align: center;
+  text-decoration: underline;
+}
+
+table {
+  font-family: Calibri;
+  color: black;
+  font-size: 11pt;
+  font-style: normal;
+  font-weight: bold;
+
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+table.inner {
+  border: 0px;
+}

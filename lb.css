@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #f1fbff;
+  background-size: 280%;
+  background-position: -400px 0px;
+}
+.navbar {
+  background-color: antiquewhite;
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-family: sans-serif;
+}
+.lab img {
+  margin-top: 10px;
+}
+.sub a {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}

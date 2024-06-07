@@ -1,0 +1,148 @@
+/*top header*/
+
+body {
+  background: #f1fbff;
+}
+
+.header {
+  background-color: #68bb59;
+}
+.header img {
+  margin-left: 0px;
+  width: 220px;
+  height: 40px;
+  float: left;
+}
+.header a {
+  text-decoration: none;
+}
+.nav-link {
+  color: white;
+}
+.head-left ul {
+  list-style: none;
+  float: left;
+}
+
+.head-left ul li a {
+  color: white;
+  text-decoration: none;
+}
+/*menu section*/
+.logo {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.logo img {
+  height: 40px;
+}
+.head-menu {
+  padding-top: 25px;
+  padding-bottom: 12px;
+}
+.head-menu ul {
+  list-style: none;
+  float: right;
+  font-size: 14px;
+}
+.head-menu ul li {
+  float: left;
+  padding-left: 20px;
+}
+
+.navbar-brand {
+  width: 20%;
+}
+
+.container {
+  padding: 5px;
+}
+.top-header {
+  padding: 5px;
+}
+.header {
+  margin-top: 5px;
+}
+
+.about-us p {
+  color: black;
+}
+
+.about-us {
+  background-color: #003366;
+}
+.about-us p {
+  color: red;
+}
+.news {
+  margin-top: 280px;
+  background-color: #223260;
+  color: whitesmoke;
+}
+.news {
+  width: 100%;
+}
+.btn2 {
+  height: 45px;
+  width: 100px;
+  background: white;
+  margin-left: -10px;
+  border: 2px solid white;
+  font-weight: 600;
+}
+
+/*.news input {
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+  .news::placeholder {
+    color: white;
+  }*/
+.news p {
+  margin: 0;
+}
+.fab {
+  font-size: 2.5rem;
+  cursor: pointer;
+  margin: 12px;
+  padding-right: 5px;
+}
+
+/*About Us Section*/
+.about-us img {
+  width: 24%;
+  float: left;
+}
+.about-us div {
+  width: 70%;
+  margin-left: 20px;
+  float: left;
+  line-height: 35px;
+}
+.inr-bnr {
+  position: relative;
+}
+.inr-bnr h1 {
+  margin: 10px;
+  text-align: center;
+}
+.inr-bnr p {
+  text-align: center;
+}
+
+.inr-bnr img {
+  width: 100%;
+}
+.main-section img {
+  height: 250px;
+  width: 200px;
+}
+.img img {
+  height: 50px;
+}
